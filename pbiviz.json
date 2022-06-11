@@ -1,0 +1,25 @@
+{
+   "visual":{
+      "name":"toptalSocialNetworkByBharatGarg",
+      "displayName":"toptalSocialNetworkByBharatGarg",
+      "guid":"toptalSocialNetworkByBharatGargE797BA19973348D180885BA9D537F9E3",
+      "visualClassName":"Visual",
+      "version":"1.0.0",
+      "description":"abc",
+      "supportUrl":"https://abc.com",
+      "gitHubUrl":""
+   },
+   "apiVersion":"3.8.0",
+   "author":{
+      "name":"abc",
+      "email":"abc@abc.com"
+   },
+   "assets":{
+      "icon":"assets/icon.png"
+   },
+   "externalJS":null,
+   "style":"style/visual.less",
+   "capabilities":"capabilities.json",
+   "dependencies":"dependencies.json",
+   "stringResources":[]
+}

@@ -1,0 +1,84 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "dataset",
+      "description": "Connection Details - From, To, # Connections, Sentiment Color, To Node Type Color",
+      "kind": "GroupingOrMeasure",
+      "name": "dataset"
+    },
+    {
+      "displayName": "num_records",
+      "description": "number of records to keep",
+      "kind": "Measure",
+      "name": "num_records"
+    }
+  ],
+  "dataViewMappings": [
+    {
+       "conditions": [
+        {
+          "dataset": {
+            "max": 20
+          },
+          "num_records": {
+            "max": 1
+          }
+        }
+      ],
+	  "scriptResult": {
+        "dataInput": {
+          "table": {
+            "rows": {
+              "select": [
+                {
+                  "for": {
+                    "in": "dataset"
+                  }
+                },
+                {
+                  "for": {
+                    "in": "num_records"
+                  }
+                }
+              ],
+              "dataReductionAlgorithm": {
+                "top": {}
+              }
+            }
+          }
+        },
+        "script": {
+          "scriptProviderDefault": "R",
+          "scriptOutputType": "html",
+          "source": {
+            "objectName": "rcv_script",
+            "propertyName": "source"
+          },
+          "provider": {
+            "objectName": "rcv_script",
+            "propertyName": "provider"
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "rcv_script": {
+      "properties": {
+        "provider": {
+          "type": {
+            "text": true
+          }
+        },
+        "source": {
+          "type": {
+            "scripting": {
+              "source": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "suppressDefaultTitle": true
+}

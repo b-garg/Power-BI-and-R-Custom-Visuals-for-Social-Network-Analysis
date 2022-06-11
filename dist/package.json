@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"abc","email":"abc@abc.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/toptalSocialNetworkByBharatGargE797BA19973348D180885BA9D537F9E3.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"toptalSocialNetworkByBharatGarg","displayName":"toptalSocialNetworkByBharatGarg","guid":"toptalSocialNetworkByBharatGargE797BA19973348D180885BA9D537F9E3","visualClassName":"Visual","version":"1.0.0","description":"abc","supportUrl":"https://abc.com","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
