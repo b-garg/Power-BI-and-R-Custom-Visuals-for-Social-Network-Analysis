@@ -1,4 +1,4 @@
-#Power BI and R: Custom Visuals for Social Network Analysis
+# Power BI and R: Custom Visuals for Social Network Analysis
 
 In the repository you will find the following files:
 1. Package to create cusomt R visual for PowerBI
