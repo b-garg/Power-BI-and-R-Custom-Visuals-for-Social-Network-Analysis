@@ -2,7 +2,15 @@
 
 **Bharat Garg**
 
+**https://www.toptal.com/r/social-network-analysis-power-bi-r-custom-visuals**
+
 This repository contains code and sample data to build your custom Social network visual for Power BI using R.
+
+* * *
+This code is published as part of the corresponding blog article at the Toptal Engineering Blog.
+Visit https://www.toptal.com/blog and subscribe to our newsletter to read great articles!
+* * *
+
 
 ## USAGE
 
